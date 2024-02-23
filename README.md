@@ -17,7 +17,7 @@ Finally we must send the query with the parameters that we want to obtain from t
 ![TheGraph](https://drive.google.com/uc?id=10gTvJH3Idnc8JFucFG3upmygVYN0bpMr)
 
 Example:
-```
+```jsx
 useEffect(() => {
   var query = `query {
                         tokens{
