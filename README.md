@@ -45,4 +45,4 @@ useEffect(() => {
 }, []);
 ```
 
-BOS Widget: https://near.org/owa-is-bos.near/widget/BOS-TheGraph
+BOS Widget: https://near.social/owa-is-bos.near/widget/BOS-TheGraph
