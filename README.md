@@ -29,7 +29,7 @@ The following is the basic structure of an asyncFetch showing its main elements:
   asyncFetch(
     "URL_API",
     {
-      method: "GET",
+      method: "POST",
       headers: {
         accept: "application/json",
         "content-type": "application/json",
