@@ -21,7 +21,8 @@ To get information from an API we only have to make a call from BOS using asyncF
 The following is the basic structure of an asyncFetch showing its main elements:
   * **URL_API**: address of the API to be consumed.
   * **method**: http method to be used (GET, POST, PUT or DELETE).
-  * **headers**: Additional metadata that is sent to the API to help the server understand what type of request is being sent.
+  * **headers**: additional metadata that is sent to the API to help the server understand what type of request is being sent.
+  * **body**: information submitted in the body of the request.
 
 **Structure of asyncFetch**:
 ```jsx
@@ -33,6 +34,7 @@ The following is the basic structure of an asyncFetch showing its main elements:
         accept: "application/json",
         "content-type": "application/json",
       },
+      body: JSON.stringify({ }),
     }
   )
     .then(({ body }) => { })
